@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://your-solution-url.com)
-- Live Site URL: [intro-section-with-dropdown-navigation](https://saurabhisdev.github.io/intro-section-with-dropdown-navigation)
+- Solution URL: [Frontend mentor](https://www.frontendmentor.io/solutions/introsectionwithdropdownnavigation-XxQdrIbYSl)
+- Live Site URL: [intro-section-with-dropdown-navigation](https://saurabhisdev.github.io/intro-section-with-dropdown-navigation/)
 
 ## My process
 
