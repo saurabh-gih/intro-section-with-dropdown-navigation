@@ -223,6 +223,10 @@ main {
         justify-content: space-between;
     }
 
+    nav ul {
+        gap:0;
+    }
+
     nav a{
         gap: 1em;
     }
@@ -234,6 +238,7 @@ main {
     }
 
     .menu_items {
+        display:none;
         position: absolute;
         inset: 0 0 0 40%;
         flex-direction: column;
@@ -242,7 +247,13 @@ main {
         padding: min(12rem, 15vh) 2rem;
         transform: translateX(100%);
         transition: transform ease-in-out 500ms;
-        min-height: 100vh;
+        height: 110%;
+        overflow: hidden;
+    }
+
+    .active {
+        display: block;
+        transform: translateX(0);
     }
 
     .nav_btn {
@@ -256,6 +267,8 @@ main {
         padding: 15px 2em;
     }
     .btn_register{
+        display: block;
+        text-align: center;
         padding: 15px 2em;
 
     }
@@ -270,10 +283,6 @@ main {
     .toggle_btn {
         display: block;
         z-index: 999999;
-    }
-
-    .active {
-        transform: translateX(0);
     }
 
     .menu_btn {
@@ -293,15 +302,14 @@ main {
 
     .hero_section {
         padding: 1em;
-        justify-content: space-evenly;
         align-items: center;
         text-align: center;
         gap: 1em;
     }
 
     .hero_title {
-        font-size: 2.2em;
-        margin-top: 0;
+        font-size: 2em;
+        margin-top: 1em;
     }
 
     .hero_title>br {
@@ -319,6 +327,8 @@ main {
     .hero_image .mobile_hero_image {
         display: block;
     }
+
+    
 
     .btn_learn {
         padding: 15px 15px;

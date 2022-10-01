@@ -16,6 +16,29 @@ toggleBtn.addEventListener("click", ()=>{
     }
 })
 
+const featureSublist = document.querySelector("#feature_sublist")
+const companySublist = document.querySelector("#company_sublist")
+const dropdown = document.querySelectorAll(".dropdown")
 
 
+featureSublist.parentNode.addEventListener("click", ()=>{
+    dropdown.forEach(e => {
+        if(e.style.display==="block")
+            e.style.display="none"
+    });
+    if(featureSublist.style.display==="block")
+    featureSublist.style.display="none"
+    else
+    featureSublist.style.display="block"
+})
 
+companySublist.parentNode.addEventListener("click", ()=>{
+    dropdown.forEach(e => {
+        if(e.style.display==="block")
+            e.style.display="none"
+    });
+    if(companySublist.style.display==="block")
+    companySublist.style.display="none"
+    else
+    companySublist.style.display="block"
+})
