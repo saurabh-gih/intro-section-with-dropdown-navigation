@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend mentor](https://www.frontendmentor.io/solutions/introsectionwithdropdownnavigation-XxQdrIbYSl)
-- Live Site URL: [intro-section-with-dropdown-navigation](https://saurabhisdev.github.io/intro-section-with-dropdown-navigation/)
+- Live Site URL: [intro-section-with-dropdown-navigation](https://saurabh-gih.github.io/intro-section-with-dropdown-navigation/)
 
 ## My process
 
